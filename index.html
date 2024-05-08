@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <header class="header header__background">
+    <div class="header__background">
+      <div class="container container__header">
+        <nav class="navigation">
+          <img class="header__logo" src="/icons/Logo.svg" alt="Логотип компании">
+          <div class="header__phone header__phone_icon">                
+            <a class="header__phone_number" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+            <button class="header__phone_btn" type="submit">Перезвоните мне</button>          
+          </div>
+        </nav>
+        <h1 class="first-page__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+        <p class="first-page__text">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
+        <button class="first-page__btn" type="button">Подробнее</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="advantages">
+      <div class="container">
+        <h2 class="advantages__title">Уникальный заголовок для преимущества компании</h2>
+        <h3 class="advantages__subtitle">О нас</h3>
+        <p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
+        <ol class="advantages__list">
+          <li class="advantages__item"><span>Первое целевое преимущество</span></li>
+          <li class="advantages__item"><span>Второе целевое преимущество</span></li>
+          <li class="advantages__item"><span>Третье целевое преимущество</span></li>
+          <li class="advantages__item"><span>Четвертое целевое преимущество</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="questions">
+      <div class="questions__background">
+        <div class="container container__questions">
+          <h2 class="questions__title">Остались вопросы?</h2>
+          <h3 class="questions__subtitle">Оставьте номер телефона, и мы перезвоним вам</h3>
+          <form class="questions__form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+
+            <input class="questions__input" type="text" placeholder="Ваше имя">
+            <input class="questions__input" type="tel" name="tel" placeholder="Телефон">
+            <input class="questions__input" type="email" name="email" placeholder="E-mail">
+
+            <button class="questions__btn" type="submit">позвоните мне</button>
+          </form>
+          <p class="questions__text">Я даю своё <span class="questions__text_span">согласие</span> на обработку моих персональных данных.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container container__footer">
+      <div class="footer__block">
+        <div class="footer__first-block">
+          <img class="footer__logo" src="/icons/Logo.svg" alt="Логотип компании">
+          <p class="footer__rights">© 2022 XXXcompany.
+            Все права защищены.</p>
+        </div>
+        <p class="footer__author">Сделано в Ивановым Иваном</p>
+        <div class="header__phone header__phone_icon">          
+          <a class="header__phone_number" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+          <button class="header__phone_btn" type="submit">Перезвоните мне</button>          
+        </div>
+      </div>
+
+      <div class="footer__block_mobile">
+        <div class="footer__block_up">
+          <div class="footer__first">
+            <img class="footer__logo_mobile" src="/icons/Logo.svg" alt="Логотип компании">
+            <p class="footer__rights_mobile">© 2022 XXXcompany.
+              Все права защищены.</p>
+          </div>
+          <img class="footer__img_mobile" src="/icons/phone-mobile.svg" alt="Трубка телефона">
+        </div> 
+        <div class="footer__block_down">    
+          <p class="footer__author_mobile">Сделано Ивановым Иваном</p>
+        </div>  
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>

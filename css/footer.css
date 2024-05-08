@@ -1,0 +1,129 @@
+.footer__block_mobile {
+  display: none;
+}
+
+.footer {
+  background-color: var(--background-color);
+  padding: 45px 0;
+}
+
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__rights, .footer__author {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--main-color);
+}
+
+.footer__rights {
+  white-space: pre-line;
+  padding: 18px 0;
+}
+
+.footer__author {
+  padding-top: 27px;
+}
+
+.footer__first-block {
+  display: flex;
+}
+
+.footer__logo {
+  margin-right: 19px;
+}
+
+.header__phone {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 0;
+}
+
+.header__phone_number {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.header__phone_btn {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: var(--main-color);
+  text-decoration: underline;
+  text-decoration-color: var(--main-color);
+}
+
+
+@media all and (max-width: 1024px){
+  .footer {
+    padding: 49px 30px; 
+  }
+
+  .footer__rights {
+    padding: 14px 0;
+  }
+
+  .header__phone_number {
+    font-size: 21px;
+  }
+  
+  .header__phone_btn {
+    font-size: 13px;
+  }
+}
+@media all and (max-width: 768px){
+  .footer {
+    padding: 0; 
+  }
+
+  .container__footer {
+    padding: 0;
+  }
+
+  .footer__block {
+    display: none;
+  }  
+
+  .footer__block_mobile {
+    display: block;
+  }
+
+  .footer__block_up {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15px;
+  }
+
+  .footer__first {
+    display: flex;
+  }
+
+  .footer__logo_mobile {
+    width: 30px;
+    height: 30px;
+    margin-right: 19px;
+  }
+
+  .footer__rights_mobile {
+    white-space: pre-line;
+    padding: 4px 0;    
+    font-size: 8px;
+    color: var(--main-color);
+  }
+
+  .footer__block_down{
+    width: 100%;
+    padding: 15px 80px;    
+    background-color: #2a2c3f;
+  }
+  .footer__author_mobile {
+    display: flex;
+    justify-content: center;
+    color: var(--main-color);
+    opacity: 0.5;
+  }
+}

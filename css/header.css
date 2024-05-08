@@ -1,0 +1,160 @@
+.header {
+  background-image: url("../img/photo-up.jpg");  
+  background-size: cover;
+  height: 100%;
+}
+
+.header__background {
+  background-color: rgba(47, 50, 75, 0.85);
+  height: 100%;
+  width: 100%; 
+}
+
+.container__header {
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+
+.navigation { 
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.header__phone {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+
+.header__phone_number {
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.header__phone_btn {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: var(--main-color);
+  background-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+
+.first-page__title {
+  font-weight: 900;
+  font-size: 52px;
+  text-align: center;
+  color: var(--main-color);
+  opacity: 0.86;
+  margin-bottom: 35px;
+}
+
+.first-page__text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--main-color);
+  opacity: 0.75;
+  margin: 0 auto;
+  max-width: 960px;
+  margin-bottom: 90px;
+}
+
+.first-page__btn {
+  display: block;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: var(--main-color);
+  background-color: var(--btn-color);
+  padding: 12px 48px;
+  border-radius: 50px;
+  box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
+}
+
+
+@media all and (max-width: 1024px){
+  .header {
+    height: 100%;
+  }
+  
+  .header__background {
+    min-height: 528px;
+  }
+
+  .container__header {
+    padding: 26px 30px 70px 30px;
+    height: 100%;
+  }
+
+  .navigation { 
+    margin-bottom: 70px;
+  }
+
+  .header__logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .first-page__title {
+    font-size: 40px;
+    margin-bottom: 27px;
+  }
+
+  .first-page__text {
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+}
+
+@media all and (max-width: 480px){
+  .header__background {
+    min-height: 441px;
+  }
+
+  .container__header {
+    padding: 15px 15px 65px 15px;
+    height: 100%;
+  }
+
+  .navigation { 
+    margin-bottom: 65px;
+  }
+
+  .header__logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__phone_number, .header__phone_btn {
+    display: none;
+  }
+  
+  .header__phone_icon {   
+    display: block;
+    background-image: url("../icons/phone-mobile.svg"); 
+    width: 24px;
+    height: 24px;
+  }
+
+  .first-page__title {
+    font-size: 20px;
+    margin-bottom: 23px;
+  }
+
+  .first-page__text {
+    font-size: 14px;
+    margin-bottom: 54px;
+  }
+
+  .first-page__btn {
+    font-size: 16px;
+    padding: 9px 28px;
+  }
+}
