@@ -1,6 +1,7 @@
 .header {
   background-image: url("../img/photo-up.jpg");  
-  background-size: cover;
+  background-size: initial;
+  background-position: center;
   height: 100%;
 }
 
@@ -18,13 +19,14 @@
 .navigation { 
   display: flex;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 113px;
 }
 
 .header__phone {
   display: flex;
   flex-direction: column;
-  padding: 8px 0;
+  padding: 7px 0;
+  gap: 3px;
 }
 
 .header__phone_number {
@@ -47,10 +49,11 @@
 .first-page__title {
   font-weight: 900;
   font-size: 52px;
+  line-height: 1.3;
   text-align: center;
   color: var(--main-color);
   opacity: 0.86;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .first-page__text {
@@ -73,7 +76,7 @@
   text-align: center;
   color: var(--main-color);
   background-color: var(--btn-color);
-  padding: 12px 48px;
+  padding: 12px 47px;
   border-radius: 50px;
   box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
 }
